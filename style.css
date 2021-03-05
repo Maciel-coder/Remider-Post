@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*definindo a fonte para toda a pagina*/
+:root{
+  font-family: "Inter",sans-serif;
+  font-size: 180%;
+}
+
+body{
+  min-height: 100vh; /*altura minima*/
+
+  display: flex;/*deixando os elementos um ao lado de outro*/
+  flex-direction: column; /*deixando flexivel para alinhar os itens ao centro*/
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  font-size: 300%;
+}
